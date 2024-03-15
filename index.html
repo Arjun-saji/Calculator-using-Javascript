@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel='stylesheet'>
+    
+</head>
+
+<body style="background-color:#455369;">
+   
+    
+        
+    
+    <div id="calculator">
+        <!--<input id="previous" readonly>-->
+        <input id="screen" type="text" readonly>
+        <div id="button-wrapper">
+            <button class="button" onclick="clearw()">C</button>
+            <button class="button" onclick="deleted(value)">DEL</button>
+            <button class="button" value="%" onclick="buttonClick(value)">%</button>
+            <button class="button" value="÷" onclick="buttonClick(value)">÷</button>
+            <button class="button" value="7" onclick="buttonClick(value)">7</button>
+            <button class="button" value="8" onclick="buttonClick(value)">8</button>
+            <button class="button" value="9" onclick="buttonClick(value)">9</button>
+            <button class="button" value="*" onclick="buttonClick(value)">x</button>
+            <button class="button" value="4" onclick="buttonClick(value)">4</button>
+            <button class="button" value="5" onclick="buttonClick(value)">5</button>
+            <button class="button" value="6" onclick="buttonClick(value)">6</button>
+            <button class="button" value="-" onclick="buttonClick(value)">-</button>
+            <button class="button" value="1" onclick="buttonClick(value)">1</button>
+            <button class="button" value="2" onclick="buttonClick(value)">2</button>
+            <button class="button" value="3" onclick="buttonClick(value)">3</button>
+            <button class="button" value="+" onclick="buttonClick(value)">+</button>
+            <button class="button" value="." onclick="buttonClick(value)">.</button>
+            <button class="button" value="0" onclick="buttonClick(value)">0</button>
+            <button class="button" onclick="equals()" style="grid-column: span 2;">=</button>
+        </div>
+        
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>
